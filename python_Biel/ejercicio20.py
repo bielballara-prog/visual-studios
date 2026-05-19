@@ -1,5 +1,5 @@
 # Nom que ha d'endevinar l'usuari
-nom_secret = "Roger"
+nom_secret = "Biel"
 
 # Demanem el primer intent
 intent = input("Endevina el meu nom: ")
