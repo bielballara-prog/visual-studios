@@ -6,28 +6,28 @@ screen = turtle.Screen()
 screen.title("Cursa de tortugues")
 
 # Tortugues
-maria = turtle.Turtle()
-pere = turtle.Turtle()
-laura = turtle.Turtle()
-joan = turtle.Turtle()
+santino = turtle.Turtle()
+biel = turtle.Turtle()
+victor = turtle.Turtle()
+jan = turtle.Turtle()
 
 # Colors
-maria.color("red")
-pere.color("blue")
-laura.color("green")
-joan.color("orange")
+santino.color("red")
+biel.color("blue")
+victor.color("green")
+jan.color("orange")
 
 # Posicions inicials
-maria.penup(); maria.goto(-200, 100); maria.pendown()
-pere.penup(); pere.goto(-200, 50); pere.pendown()
-laura.penup(); laura.goto(-200, 0); laura.pendown()
-joan.penup(); joan.goto(-200, -50); joan.pendown()
+santino.penup(); santino.goto(-200, 100); santino.pendown()
+biel.penup(); biel.goto(-200, 50); biel.pendown()
+victor.penup(); victor.goto(-200, 0); victor.pendown()
+jan.penup(); jan.goto(-200, -50); jan.pendown()
 
 # Cursa
 for i in range(100):
-    maria.forward(random.randint(1, 5))
-    pere.forward(random.randint(1, 5))
-    laura.forward(random.randint(1, 5))
-    joan.forward(random.randint(1, 5))
+    santino.forward(random.randint(1, 5))
+    biel.forward(random.randint(1, 5))
+    victor.forward(random.randint(1, 5))
+    jan.forward(random.randint(1, 5))
 
 screen.mainloop()
